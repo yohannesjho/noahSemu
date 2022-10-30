@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manage landing page</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav class="relative container  mx-auto" >
+  <div class="flex items-center justify-between">
+    <div class="pt-2">
+        <img src="img/logo.svg" alt="">
+    </div>
+    <!--menu items-->
+    <div class="hidden md:flex space-x-6">
+        <a href="index.html"class="hover:text-darkGrayishBlue">Home</a>
+        <a href="services.html" class="hover:text-darkGrayishBlue">Services</a>
+        <a href="products.html" class="hover:text-darkGrayishBlue">Products</a>
+        <a href="Aboutus.html" class="hover:text-darkGrayishBlue">About Us</a>
+         
+    </div>
+
+    <!--button-->
+    <a href="#" class="hidden md:block p-3 px-6 pt-2 bg-brightRed text-white rounded-full baseline hover:bg-brightRedLight">get started</a>
+<!-- Hamburger Icon -->
+    <button
+          id="menu-btn"
+          class="  block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+    </button>
+   
+</div>
+
+<!-- Mobile Menu -->
+<div class="md:hidden">
+  <div
+    id="menu"
+    class="absolute  flex-col items-center  self-end py-8 mt-10 space-y-6 hidden font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+  >
+    <a href="index.html" class="hover:hover:text-amber-600"> Home</a>
+    <a href="services.html" class="hover:hover:text-amber-600"> Services</a>
+    <a href="products.html" class="hover:hover:text-amber-600"> Products</a>
+    <a href="Aboutus.html" class="hover:hover:text-amber-600"> About us</a>
+     
+  </div>
+</div>
+</nav>
+  <!--hero section-->
+<section id="hero" >
+    <div class="flex container flex-col-reverse items-center  md:flex-row mt-10  mx-auto ">
+        <div class="flex flex-col space-y-12 md:w-1/2 items-center p-6 ">
+            <h1 class="font-bold text-4xl text-center md:text-5xl md:text-left "> Products</h1>
+
+            <u>
+                <li>Marble & Granite</li>
+                <li>Blocks</li>
+                <li> Steels</li>
+                <li>Mirrors </li>
+                <li> Alluminium</li>
+                <li> Terrazzo</li>
+                <li> Gypsom Board</li>
+            </u>
+                <div class="flex justify-start">
+                    <a href="#" class="ml-0
+                       p-3 px-6 pt-2 bg-brightRed text-white rounded-full baseline hover:bg-brightRedLight">get started</a>
+
+                </div>
+        
+
+        </div>
+         
+    </div>
+    
+
+</section>
+
+<!--feature section-->
+<section  id="feature">
+    <!--flex-container-->
+    <div class="    flex flex-col container mx-auto mt-4 px-4 space-y-12 md:space-y-0 md:flex-row ">
+        
+        <div class=" flex flex-col  mt-12 md:w-1/2 ">
+            <h2 class="  text-bold text-4xl mx-w-md text-center md:text-left">What's different about us?</h2>
+            <p class="  text-center text-darkGrayishBlue md:text-left">we provide all the  necessary and quality building materials your team needs, without the
+                complexity. </p>
+
+        </div>.
+        <!-- numbered list-->
+        <div class="flex flex-col space-y-12 md:w-1/2">
+            <!--list item-1-->
+            <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                 <!-- Heading -->
+            <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                <div class="flex items-center space-x-3">
+                  <div
+                    class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                  >
+                    01
+                  </div>
+                  <h3 class="text-base font-bold md:mb-4 md:hidden">
+                    Track company-wide progress
+                  </h3>
+                </div>
+            </div>
+            <div>
+            <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Get quality products 
+            </h3>
+            <p class="text-darkGrayishBlue">
+                See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all the way down to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+            </p>
+            </div>
+            </div>
+            <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                <!-- Heading -->
+           <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+               <div class="flex items-center space-x-3">
+                 <div
+                   class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                 >
+                   02
+                 </div>
+                 <h3 class="text-base font-bold md:mb-4 md:hidden">
+                    Advanced built-in reports
+                 </h3>
+               </div>
+           </div>
+           <div>
+           <h3 class="hidden mb-4 text-lg font-bold md:block">
+            Fair prices
+           </h3>
+           <p class="text-darkGrayishBlue">
+            Set internal delivery estimates and track progress toward
+            company goals. Our customisable dashboard helps you build out
+            the reports you need to keep key stakeholders informed.
+           </p>
+           </div>
+           </div>
+           <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+            <!-- Heading -->
+       <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+           <div class="flex items-center space-x-3">
+             <div
+               class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+             >
+               03
+             </div>
+             <h3 class="text-base font-bold md:mb-4 md:hidden">
+                Everything you need in one place
+             </h3>
+           </div>
+       </div>
+       <div>
+       <h3 class="hidden mb-4 text-lg font-bold md:block">
+        Everything you need in one place
+       </h3>
+       <p class="text-darkGrayishBlue">
+        Stop jumping from one service to another to communicate, store
+        files, track tasks and share documents. Manage offers an
+        all-in-one team productivity solution.
+       </p>
+       </div>
+       </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!--testimonials-->
+<section id="testimonials">
+    <div class="container mx-auto p-6 text-center">
+        <h2 class="font-bold text-4xl p-6 mt-24  ">some of our services</h2>
+
+        <div class="flex flex-col md:flex-row mt-24 space-x-5">
+            <div class="flex flex-col p-6 items-center space-y-6 md:w-1/3 bg-veryLightGray">
+                <img src="https://th.bing.com/th/id/OIP.QJQm5gZfqk1GNGxeK1cVoAHaHa?w=166&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="w-full " alt="ali">
+                <h5 class=" text-sm bold-font">Gybsom board </h5>
+                 <img src="https://th.bing.com/th/id/OIP.ol9TkOYSXOnl2XAX0YcGhAHaGi?w=228&h=201&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="w-full"  alt="">
+                 <h5>marble and granite </h5>
+            </div>
+
+            <div class="flex flex-col p-6 items-center space-y-6 md:w-1/3 bg-veryLightGray">
+                <img src="https://th.bing.com/th/id/OIP.B1asLb1l0UQklLfmxbpjJgHaE8?w=276&h=184&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="w-full h-96" alt="ali">
+                <h5 class=" text-sm bold-font">Steel </h5>
+                 <img src="https://th.bing.com/th/id/OIP.k_Du20BD8QLb239bO29R3wHaFw?w=279&h=217&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="w-full "  alt="">
+                 <h5>Terrazzo</h5>
+            </div>
+            <div class="flex flex-col p-6 items-center space-y-6 md:w-1/3 bg-veryLightGray ">
+                <img src="https://th.bing.com/th/id/OIP.YBFa_j3hSqS99QvwtbJXGgHaHa?w=193&h=194&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="w-full h-full" alt="ali">
+                <h5 class=" text-sm bold-font"> Block</h5>
+                 <img src="https://th.bing.com/th/id/OIP.1wFBqxrprHLsICW4FjvWRwHaDa?w=308&h=161&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="w-full h-full"  alt="">
+                 <h5>Alluminium</h5>
+            </div>
+
+            
+        </div>
+        <div class="my-16">
+            <a
+              href="#"
+              class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              >Get Started</a
+            >
+          </div>
+    </div>
+   
+
+</section>
+
+<!--CTA section-->
+<section id="cta" class="bg-brightRed">
+    <div class="flex flex-col md:flex-row px-12 py-6   items-center justify-between">
+        <h2 class="font-bold text-5xl text-center md:text-4xl">Simplify how your team work</h2>
+
+        <div class="my-16">
+            <a
+              href="#"
+              class="p-3 px-6 pt-2 text-black bg-white hover:bg-gray-900 rounded-full baseline hover:text-white "
+              >Get Started</a
+            >
+          </div>
+    </div>
+    
+</section>
+
+<!--footer-->
+<footer class="bg-black">
+  <div class=" container mx-auto flex flex-col-reverse px-4 py-6 md:flex-row space-x-6 justify-between items-center  ">
+
+    <div class=" text-white md:hidden ">
+      Copyright &copy; 2022, All Rights Reserved
+    </div>
+    <div class="flex flex-col space-y-6 ">
+      <div class="text-center">
+        <img src="img/logo.svg" alt="logo" class="h-8"> 
+      </div>
+      <div class="flex space-x-4  ">
+         
+      <a href="#"><img src="img/fb.svg" class="h-8" alt=""></a>        
+      <a href="#"><img src="img/ig.svg" class="h-8" alt=""></a>        
+      <a href="#"><img src="img/pn.svg" class="h-8" alt=""></a>        
+      <a href="#"><img src="img/twt.svg" class="h-8" alt=""></a>        
+      <a href="#"><img src="img/yt.svg" class="h-8" alt=""></a>        
+        
+
+      </div>
+    </div>
+
+    <div class="flex space-x-6">
+      <div class="flex flex-col space-y-4 text-white">
+        <a href="index.html" class="hover:text-amber-600">Home</a>
+         
+        <a href="products.html" class="hover:text-amber-600">Products</a>
+        <a href="Aboutus.html" class="hover:text-amber-600">About us</a>
+      </div>
+
+      <div class="flex flex-col space-y-4 text-white">
+        <a href=""services.html class="hover:text-brightRed"> Services</a>
+         
+         
+      </div>
+
+
+    </div>
+
+    <div class="flex flex-col space-y-6 ">
+      
+        <form action="" >
+          <div class="flex space-x-3">
+            <input type="text" class="flex-1 rounded-full text-center text-sm px-3 py-4 focus:outline-none " placeholder="updates in your inbox">
+
+            <button class="bg-brightRed rounded-full px-6 py-2 hover:bg-brightRedLight focus:outline-none text-white">Go</button>
+          </div>
+
+        
+        </form>
+
+        <div class="hidden text-white md:block">
+          Copyright &copy; 2022, All Rights Reserved
+        </div>
+      
+        
+  </div>
+</footer>
+<div class="fixed top-0">
+  <p>conserning the problems and shortage of seen in building materails so we 24/7 are here to help you</p>
+</div>
+         <script src="script.js"></script>
+</body>
+</html>
